@@ -1,6 +1,6 @@
 function mostrarNombre() {
     const nombre = sessionStorage.getItem("nombre");
-    if (nombre===null) {
+    if (nombre==="" || nombre === null) {
         document.getElementById("saludo").textContent = "No se ha guardado ningún nombre.";
     } else {
         document.getElementById("saludo").textContent = "Hola, " + nombre;
