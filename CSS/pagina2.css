@@ -1,0 +1,36 @@
+
+body {
+    background-color: #fff9c4;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 50px;
+    color: #5d4037;
+}
+
+h1 {
+    color: #f9a825;
+}
+
+#saludo {
+    font-size: 20px;
+    margin: 20px;
+}
+
+#btn-borrar {
+    background-color: #ffeb3b;
+    color: #333;
+    border: 1px solid #fbc02d;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#btn-borrar:hover {
+    background-color: #fdd835;
+}
+
+a {
+    color: #f9a825;
+    margin-left: 10px;
+}
+
